@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import IndiaMap from "./IndiaMap";
 import StateDetails from "./StateDetails";
 
@@ -222,8 +222,25 @@ function StateInfo({ st_nm }) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
 
 export default StateInfo;
+// ... existing code ...
+
+const Footer = () => {
+  // Simulated visitor count logic for demo purposes
+
+  return (
+    <div className="fixed bottom-0 left-0 right-0 z-50  py-2 px-6 flex justify-between items-center text-[10px] md:text-xs text-gray-500">
+      <div className="flex items-center gap-2">
+        <span className="max-w-[200px] md:max-w-none truncate">
+          Disclaimer: Data is currently being populated and may not be accurate.
+          For testing purposes only.
+        </span>
+      </div>
+    </div>
+  );
+};
