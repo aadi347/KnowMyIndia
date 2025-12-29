@@ -79,6 +79,16 @@ const poiData = [
       "https://www.shutterstock.com/image-photo/bodh-gaya-bihar-india-13-600nw-2499762303.jpg",
   },
 
+  {
+    name: "Netarhat",
+    location: "Netarhat, Jharkhand",
+    coords: [84.267, 23.474],
+    description:
+      "Known as the 'Queen of Chotanagpur', Netarhat is a scenic hill station famous for its sunrise and sunset points, lush forests, waterfalls, and pleasant climate.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Netarhat%2C_Jharkhand.jpg/1200px-Netarhat%2C_Jharkhand.jpg",
+  },
+
   // -------- Seven Sisters (North-East India) --------
 
   {
