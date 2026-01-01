@@ -1,16 +1,55 @@
-# React + Vite
+Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains an interactive India map project built using D3.js and GeoJSON. The map renders all Indian states using polygon data defined by latitude and longitude coordinates, enabling precise control and smooth interactions.
 
-Currently, two official plugins are available:
+Users can hover, zoom, or select a state, and the map dynamically updates to display information like population, languages, capital city, and popular tourist places. A random state tour feature highlights a randomly selected state for an interactive exploration experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is built with React.js, styled with Tailwind CSS, and powered by Node.js for supporting logic.
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Fully interactive India map using D3.js and GeoJSON
 
-## Expanding the ESLint configuration
+Hover effects to highlight states
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Zoom in/out on individual states
+
+Search bar to navigate and zoom into any state
+
+Random state tour feature for dynamic exploration
+
+Responsive design using React.js and Tailwind CSS
+
+Information panel with population, languages, capitals, and tourist places
+
+Tech Stack
+
+Frontend: React.js, Tailwind CSS, CSS
+
+Backend / Logic: Node.js
+
+Data Visualization: D3.js, GeoJSON, SVG
+
+Live Demo
+
+You can check the live demo here:
+🔗 View Project on Vercel
+
+🛠 Installation & Setup
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the repository
+
+git clone https://github.com/yourusername/india-map-d3.git
+cd india-map-d3
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start the project
+npm start
+
+
+The project will open automatically in your default browser at:
+http://localhost:{YourPort}
