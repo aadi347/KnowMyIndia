@@ -385,7 +385,7 @@ function StateDetails({ state }) {
           className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
         />
 
-        <div className="absolute bottom-0 left-0 right-0 p-8 z-20">
+        <div className="absolute bottom-0 left-0 right-0 p-8 z-20 ">
           <div className="flex items-center gap-3 mb-3">
             <span className="px-2 py-0.5 rounded-full bg-orange-500/20 text-orange-400 border border-orange-500/20 text-[10px] uppercase font-bold tracking-widest">
               India
