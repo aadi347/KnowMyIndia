@@ -1,6 +1,6 @@
 import React from "react";
-import NewHero from "./components/NewHero";
 import StateInfo from "./components/StateInfo";
+import TechnicalDemo from "./components/TechnicalDemo";
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <div>
         <Analytics />
         <StateInfo />
+        <TechnicalDemo />
       </div>
     </div>
   );
